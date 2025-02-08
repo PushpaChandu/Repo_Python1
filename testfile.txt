@@ -1,3 +1,0 @@
-testing the git operation
-next line added
-Started to push the file 3rd time
