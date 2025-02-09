@@ -1,5 +1,15 @@
 pipeline {
-    agent any 
+    agent any
+agent {
+
+    docker {
+
+      image 'python:3.5.1'
+
+    }
+
+  }
+ 
     stages {
         stage('version') { 
             steps {
