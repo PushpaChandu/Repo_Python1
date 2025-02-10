@@ -1,13 +1,10 @@
 pipeline {
     agent any
-      
-    
     stages {
-        stage('Test') {
-            steps {
-                python3 --version
-              
-            }
+      stage('Test') {
+        steps {
+          println "Hello Pushpa"
         }
+      }
     }
 }
