@@ -8,10 +8,10 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-              sh """
-              python --version
-              python ./prg1.py
-              """
+              sh "
+              python --version"
+              
+              
             }
         }
     }
