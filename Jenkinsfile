@@ -7,6 +7,7 @@ pipeline {
           sh '''
             #!/bin/basah
             python3 --version
+            python3 prg1.py
           '''
         }
       }
