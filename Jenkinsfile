@@ -4,11 +4,7 @@ pipeline {
       stage('Test') {
         steps {
           println "Hello Pushpa"
-          sh '''
-            #!/bin/basah
-            python3 --version
-            python3 prg1.py
-          '''
+          sh 'python3 prg1.py'
         }
       }
     }
