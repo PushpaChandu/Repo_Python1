@@ -6,7 +6,7 @@ pipeline {
           println "Hello Pushpa"
           sh '''
             #!/bin/basah
-            pythion3 --version
+            python3 --version
           '''
         }
       }
